@@ -1,0 +1,10 @@
+Open Trivia Database:
+https://opentdb.com/
+Click on API, choose "default encoding".
+URL gets generated. Copy/paste that into a new window.
+We now have data in a JSON format.
+Copy into your programme's data.py. (question_data = <paste>)
+Code --> Reformat Code
+Delete the enclosing dictionary so that you have "question data =" followed by a list of dictionaries
+Each dictionary has a list of 5 key-value pairs. We're interested in these 2: "question" and "correct_answer".
+Modify main.py using the new names.
